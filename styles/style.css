@@ -12,8 +12,7 @@
   max-height: 756px;
   display: flex;
   position: relative;
-  background-color: #f2f2f2;
-  
+  background-color: #f2f2f2; 
 }
 
 .logo_place_header {
@@ -22,8 +21,8 @@
   width: 183px;
   height: 32px;
   position: absolute;
-  margin-top: 30px;
-  margin-left: 64px;
+  top: 30px;
+  left: 64px;
 }
 
 .header__title {
@@ -116,10 +115,10 @@
   padding: 0;
   margin-bottom: 30px;
 }
+
 .two-columns__paragraph:nth-of-type(3n) {
   margin-bottom: 0;
 }
-
 
 .two-columns__span-accent {
   font-weight: bold;
@@ -197,35 +196,35 @@
 /* Стили для блока feynman - начало */
 
 .feynman {
-  height: 890px;
-  display: flex;
   position: relative;
+  padding-top: 100px;
+  height: 790px;
+  display: flex;
   background-color: #f2f2f2;
-  justify-content: center;
   background-repeat: no-repeat;
   background-image: url(../images/feynman.png);
   background-position: left bottom;
+  align-items: center;
+  flex-direction: column;
 }
 
 .feynman__title {
-  position: absolute;
   width: 648px;
-  margin-top: 100px;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .feynman__subtitle {
-  position: relative;
-  top: 446px;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  margin: 0;
-  padding: 0;
   text-align: center;
+  margin-top: 0;
+  margin-top: 70px;
 }
 
 .feynman__link {
@@ -241,8 +240,6 @@
   color: #000000;
 }
 
-
-
 /* Стили для блока feynman - конец */
 
 /* Стили для блока kaufman - начало */
@@ -253,7 +250,6 @@
   background-color: #1f1f1f;
   overflow: hidden;
   justify-content: center;
-  min-height: 550px;
   color: white;
   display: flex;
   flex-direction: column;
@@ -280,6 +276,7 @@
   text-align: center;
   padding: 0;
   margin: 0;
+  z-index: 3;
 }
 
 .section-subtitle_theme_dark {
@@ -310,6 +307,10 @@
 
 .table__cell_theme_dark:nth-child(n+6) {
   margin-bottom: 0;
+}
+
+.table__cell_theme_dark:nth-child(5) {
+  margin-bottom: 80px;
 }
 
 .table__heding_theme_dark {
@@ -394,7 +395,6 @@
 }
 
 .footer__column-links {
-  
   list-style-type : none;
   margin: 0;
   padding: 0;
@@ -410,13 +410,10 @@
   text-decoration: none;
   position: relative;
   left: 0;
-  
 }
-
 
 .footer__social-icon {
   width: 16px;
   height: 16px;
   margin-right: 10px;
 }
-
