@@ -340,7 +340,7 @@
   min-height: 350px;
   color: white;
   box-sizing: border-box;
-  flex-basis: 711px;
+  
 }
 
 .footer__columns {
@@ -361,6 +361,7 @@
   margin-top: 0;
   flex-direction: column;
   justify-content: space-between;
+  flex-basis: 711px;
 }
 
 .logo_place_footer {
@@ -380,7 +381,7 @@
 }
 
 .footer__column_content-info {
-  margin-left: 35%;
+  
   justify-content: center;
   align-items: center;
 }
