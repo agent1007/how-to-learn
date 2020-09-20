@@ -1,0 +1,12 @@
+
+
+
+
+.table__cell {
+    width: 250px;
+    margin-bottom: 60px;
+  }
+
+  .table__cell:nth-child(n+5) {
+    margin-bottom: 0;
+  }

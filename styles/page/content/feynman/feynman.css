@@ -1,0 +1,17 @@
+@import url(../feynman/__link/feynman__link.css);
+@import url(../feynman/__subtitle/feynman__subtitle.css);
+@import url(../feynman/__title/feynman__title.css);
+
+
+.feynman {
+    position: relative;
+    padding-top: 80px;
+    height: 790px;
+    display: flex;
+    background-color: #f2f2f2;
+    background-repeat: no-repeat;
+    background-image: url(../feynman/feynman.png);
+    background-position: left bottom;
+    align-items: center;
+    flex-direction: column;
+  }
