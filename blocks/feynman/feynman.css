@@ -10,7 +10,7 @@
     display: flex;
     background-color: #f2f2f2;
     background-repeat: no-repeat;
-    background-image: url(../feynman/feynman.png);
+    background-image: url(../../images/_sprint-1/feynman.png);
     background-position: left bottom;
     align-items: center;
     flex-direction: column;
